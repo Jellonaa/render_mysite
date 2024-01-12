@@ -4,7 +4,7 @@ databases:
     user: mysite
 
 services:
-  - type: web
+  #- type: web
     name: mysite
     runtime: python
     buildCommand: "./build.sh"
